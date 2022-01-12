@@ -1,0 +1,297 @@
+body {
+    margin: auto;
+    padding: auto;
+    background-color: rgb(182, 179, 179)
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+header img {
+    width: 40px;
+    height: 40px;
+    margin-left: 5%;
+    margin-right: 1%;
+}
+
+header h1 {
+    margin-right: 45%;
+    color: rgb(88, 88, 88);
+}
+
+header input {
+    height: 30px;
+    width: 250px;
+    border: 1px solid rgb(88, 88, 88);
+    box-shadow: 0px 0px 3px rgb(77, 76, 76);
+    margin-right: 1%;
+    background-color: rgb(182, 179, 179)
+}
+
+header button {
+    height: 30px;
+    border: none;
+    background-color: white;
+    color: rgb(88, 88, 88);
+    font-weight: 600;
+    font-size: 19px;
+    background-color: rgb(182, 179, 179)
+}
+
+nav {
+    display: flex;
+    background-color: rgb(240, 146, 24);
+    height: 40px;
+    align-items: center;
+    width: 100%;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(88, 88, 88);   
+    font-size: 20px;
+    margin: 10px;
+    font-weight: 550;
+}
+
+.black {
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    height: 40px;
+    background-color: rgb(88, 88, 88);
+    width: 70px;
+}
+
+.black a {
+    color: white;
+}
+
+section {
+    background-color: rgb(63, 63, 63);
+    display: flex;
+}
+
+section img {
+    width: 1000px;
+    height: 350px;
+    object-fit: cover;     /* permet d'avoir une image non déformé en rognant le bord */
+    margin-left: 5%;
+}
+
+.input {
+    background-color: rgb(88, 88, 88);
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.input a {
+    text-decoration: none;
+    color: rgb(160, 158, 158);
+    font-size: 26px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.input-white {
+    background-color: rgb(182, 179, 179);
+}
+
+.input-white a {
+    color: rgb(88, 88, 88);
+}
+
+.content-top-page {
+    width: 300px;
+    color: rgb(160, 158, 158);
+}
+
+.content-top-page p {
+    font-size: 19px;
+} 
+
+.description {
+    display: flex;
+    margin-top: 5%;
+    width: 100%;
+    justify-content: center;
+}
+
+.content {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.content-2 {
+    display: flex;
+    flex-direction: column;
+    color: rgb(65, 64, 64);
+}
+
+.content-2 h1 {
+    margin: 0;
+    font-size: 25px;
+}
+
+.cadre-black {
+    width: 120px;
+    height: 25px;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(19,19,31,1) 35%, rgba(125,132,133,1) 100%);
+}
+
+.cadre-blue {
+    width: 120px;
+    height: 25px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.bot-page-tittle {
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-around;
+    color: rgb(88, 88, 88);
+}
+
+.bot-page {
+    display: flex;
+    justify-content: space-around;
+}
+
+.circle {
+    display: flex;
+    font-size: 20px;
+}
+
+.circle1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 180px;
+    background-color: rgb(63, 63, 63);
+    color: white;
+    border: 1px solid rgb(88, 88, 88);
+    opacity: 0.9;
+}
+
+.circle2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 180px;
+    background-color: white;
+    color: rgb(88, 88, 88);
+    border: 1px solid rgb(88, 88, 88);
+}
+
+.circle2 p {
+    margin: 0;
+}
+
+.circle3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 150px;
+    height: 150px;
+    border-radius: 180px;
+    background-color: white;
+    color: rgb(88, 88, 88);
+    border: 1px solid rgb(88, 88, 88);
+}
+
+.circle3 img {
+    width: 25px;
+    height: 25px;
+}
+
+.cadre {
+    display: flex;
+    align-items: center;
+    background-color: rgb(88, 88, 88);
+    height: 150px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.bot-search {
+    margin-top: 5%;
+    width: 100%;
+    height: 30px;
+    background-color: rgb(240, 146, 24);
+    display: block;
+}
+
+.bot-search input {
+    background-color: rgb(88, 88, 88);
+    border: none;
+    height: 30px;
+}
+
+.bot-search button {
+    background-color: rgb(88, 88, 88);
+    border: none;
+    height: 30px;
+}
+
+.bot-search div {
+    background-color: rgb(88, 88, 88);
+    float: right;
+    margin-right: 60px;
+    height: 30px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(63, 63, 63);
+}
+
+.foot-content {
+    display: flex;
+    flex-direction: column;
+    margin: 60px;
+}
+
+footer img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(48, 80, 221);
+}
+
+footer h1 {
+    margin: 0;
+}
+
+.deco-none {
+    list-style-type: none;
+}
+
+.deco-none li {
+    display: flex;
+    align-items: center;
+}
